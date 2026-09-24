@@ -26,12 +26,12 @@ adfs:
       
     - name: upstream5
       path: https://raw.githubusercontent.com/Pideo1/bbbfg/refs/heads/main/myadrules.txt
-      type: hosts
-
+      type: adblock
+      dialect: adguard
+      
     - name: upstream6
       path: https://raw.githubusercontent.com/lingeringsound/10007/main/all
-      type: adblock
-      dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
+      type: hosts
       
     # - name: local-hosts
     #   path: inputs/hosts.txt
