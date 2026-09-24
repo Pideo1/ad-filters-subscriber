@@ -4,31 +4,31 @@ adfs:
   # 名称必须唯一；name、path、type 均为必填字段。
   # 格式：adblock、dns、hosts、dnsmasq、smartdns、mihomo、sing-box。
   input:
-    - name: upstream
+    - name: upstream1
       path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
       type: adblock
       dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
 
-    - name: upstream
+    - name: upstream2
       path: https://raw.githubusercontent.com/4fuu/AdGuard-Home-PCDN/refs/heads/main/ban.txt
       type: adblock
       dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
 
-    - name: upstream
+    - name: upstream3
       path: https://raw.githubusercontent.com/xianhongtao/AdGuard-AntiPCDN-Rules/refs/heads/main/adguard.txt
       type: adblock
       dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
 
-    - name: upstream
+    - name: upstream4
       path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
       type: adblock
       dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
       
-    - name: upstream
+    - name: upstream5
       path: https://raw.githubusercontent.com/Pideo1/bbbfg/refs/heads/main/myadrules.txt
       type: hosts
 
-    - name: upstream
+    - name: upstream6
       path: https://raw.githubusercontent.com/lingeringsound/10007/main/all
       type: adblock
       dialect: adguard  # Adblock 方言：core（默认）、abp、adguard、ubo。
